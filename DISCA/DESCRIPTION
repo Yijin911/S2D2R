@@ -1,0 +1,22 @@
+Package: DISCA
+Title: Distance-Based Independence Screening for Canonical Analysis
+        (DISCA)
+Version: 1.0.2
+Author: Chuanping Yu <c.yu@gatech.edu>, Yijin Ni <yni64@gatech.edu>, Andy Ko <hyunouk_ko@gatech.edu> and Xiaoming Huo <huo@gatech.edu>
+Maintainer: Yijin Ni <c.yu@gatech.edu>
+Description: Functions related to the new dimension reduction method, DISCA. 
+  The projected subspaces can be of equal dimensions or non-equal dimensions, 
+  and the two random vectors are simultaneously dimension reduced.
+  *DISCA.R* and *DISCA_fwd.R* performs dimension reduction for two related random vectors simultaneously, with back-elimination and forward-selection procedures, respectively;
+  *minDCOV.R* and *maxDCOV.R* calculates the projection vector of a random variable, which minimizes (maximizes) empirical distance covariance;
+  *dcovU.test.R* performs permutation bootstrap method for independence test, based on unbiased distance covariance estimator;
+  *gMatrix.R* calculates the g-matrix mentioned in Lemma 4.1 in DISCA paper;
+  *Mminus.R* and *Mplus.R* calculates the M-minus and M-plus matrix mentioned in Lemma 4.1 in DISCA paper.
+Imports: energy, MASS, stats
+Depends: R (>= 3.4.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+NeedsCompilation: no
+Packaged: 2018-10-11 21:12:50 UTC; C.Yu
