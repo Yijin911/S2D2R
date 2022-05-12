@@ -48,19 +48,19 @@ This is a short description of each function constructed in DISCA.
 
 ### maxDCOV.R / minDCOV.R
 
-Provided with sample dataset **X** and **Y**, [maxDCOV.R](R/maxDOCV.R) and [minDCOV.R](R/minDCOV.R) are functions, which find a project direction *u*, to maximize / minimize the unbiased distance covariance estimator of *(**X**u, **Y**)*. [DC algorithm](https://link.springer.com/article/10.1007/s10479-004-5022-1) and [ADMM algorithm](https://www.stat.cmu.edu/~ryantibs/convexopt/lectures/admm.pdf) are utilized to complete optimization.
+Provided with sample dataset **X** and **Y**, [maxDCOV.R](https://github.com/Yijin911/DISCA/blob/main/R/maxDCOV.R) and [minDCOV.R](https://github.com/Yijin911/DISCA/blob/main/R/minDCOV.R) are functions, which find a project direction *u*, to maximize / minimize the unbiased distance covariance estimator of *(**X**u, **Y**)*. [DC algorithm](https://link.springer.com/article/10.1007/s10479-004-5022-1) and [ADMM algorithm](https://www.stat.cmu.edu/~ryantibs/convexopt/lectures/admm.pdf) are utilized to complete optimization.
 
-Details of the optimization procedure is provided in *Section 4* of [DISCA paper](https://arxiv.org/abs/1903.00037), in which [gMatrix.R](R/gMatrix.R), [Mminus.R](R/Mminus.R), [Mplus.R](R/Mplus.R), and [Xdiff.R](R/Xdiff.R) are functions used to decompose empirical distance covariance.
+Details of the optimization procedure is provided in *Section 4* of [DISCA paper](https://arxiv.org/abs/1903.00037), in which [gMatrix.R](https://github.com/Yijin911/DISCA/blob/main/R/gMatrix.R), [Mminus.R](https://github.com/Yijin911/DISCA/blob/main/R/Mminus.R), [Mplus.R](R/https://github.com/Yijin911/DISCA/blob/main/R/Mplus.R), and [Xdiff.R](https://github.com/Yijin911/DISCA/blob/main/R/Xdiff.R) are functions used to decompose empirical distance covariance.
 
 ### dcovU.test.R
 
-For unbiased estimator of distance covariance, [dcovU.test.R](R/dcovU.test.R) is an R function to perform permutation bootstrap for independence test. Number of replicates in the test is self-defined. The default value is 1000.
+For unbiased estimator of distance covariance, [dcovU.test.R](https://github.com/Yijin911/DISCA/blob/main/R/dcovU.test.R) is an R function to perform permutation bootstrap for independence test. Number of replicates in the test is self-defined. The default value is 1000.
 
 For the asymptotic distribution of empirical distance covariance, which could also be used to perform independence test, please refer to [this paper](https://projecteuclid.org/journals/annals-of-statistics/volume-35/issue-6/Measuring-and-testing-dependence-by-correlation-of-distances/10.1214/009053607000000505.full).
 
 ### DISCA.R / DISCA_fwd.R
 
-These are main functions constructed in DISCA. Provide observations **X** and **Y**, [DISCA.R](R/DISCA.R) get corresponding central subspace with back elimination method, while [DISCA_fwd.R](R/DISCA_fwd.R) reached the result with a forward selection procedure. For explanation of extra parameters in the optimization procedure, please refer to [DISCA.Rd](man/DISCA.Rd) and [DISCA_fwd.Rd](man/DISCA_fwd.Rd).
+These are main functions constructed in DISCA. Provide observations **X** and **Y**, [DISCA.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA.R) get corresponding central subspace with back elimination method, while [DISCA_fwd.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA_fwd.R) reached the result with a forward selection procedure. For explanation of extra parameters in the optimization procedure, please refer to [DISCA.Rd](https://github.com/Yijin911/DISCA/blob/main/R/DISCA.Rd) and [DISCA_fwd.Rd](https://github.com/Yijin911/DISCA/blob/main/R/DISCA_fwd.Rd).
 
 ## Maintainers
 
