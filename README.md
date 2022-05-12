@@ -60,7 +60,7 @@ For the asymptotic distribution of empirical distance covariance, which could al
 
 ### DISCA.R / DISCA_fwd.R
 
-These are main functions constructed in DISCA. Provide observations **X** and **Y**, [DISCA.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA.R) get corresponding central subspace with back elimination method, while [DISCA_fwd.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA_fwd.R) reached the result with a forward selection procedure. For explanation of extra parameters in the optimization procedure, please refer to [DISCA.Rd](https://github.com/Yijin911/DISCA/blob/main/R/DISCA.Rd) and [DISCA_fwd.Rd](https://github.com/Yijin911/DISCA/blob/main/R/DISCA_fwd.Rd).
+These are main functions constructed in DISCA. Provide observations **X** and **Y**, [DISCA.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA.R) get corresponding central subspace with back elimination method, while [DISCA_fwd.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA_fwd.R) reached the result with a forward selection procedure. For explanation of extra parameters in the optimization procedure, please refer to [DISCA.Rd](https://github.com/Yijin911/DISCA/tree/main/man/DISCA.Rd) and [DISCA_fwd.Rd](https://github.com/Yijin911/DISCA/tree/main/man/DISCA_fwd.Rd).
 
 ## Maintainers
 
