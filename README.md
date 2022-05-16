@@ -19,10 +19,10 @@ This repository contains:
 - [Background](#background)
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Distance covariance optimization under one-dimensional projection](#optdcov)
-  - [Permutation test of unbiased distance covariance](#dcovu.test)
-  - [DISCA functions](#disca)
-- [Maintainers](#maintainers)
+  - [Distance covariance optimization under one-dimensional projection](#distance covariance optimization under one-dimensional projection)
+  - [Permutation test of unbiased distance covariance](#permutation test of unbiased distance covariance)
+  - [DISCA functions](#disca functions)
+- [Maintainer](#maintainer)
 - [Contributors](#contributors)
 
 ## Backgroud
@@ -34,7 +34,7 @@ The goals of this repository are:
 1. Given explanations of each function utilized in DISCA.  The [man](man) folder contains examples of each R function;
 2.  Provide the R-package of DISCA to be installed;
 
-## Install
+## Installation
 
 **DISCA R-package** contains all functions needed to perform DISCA.  Every function in the [R](R) folder could be called.
 
