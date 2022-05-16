@@ -19,9 +19,9 @@ This repository contains:
 - [Background](#background)
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Distance covariance optimization under one-dimensional projection](#distance covariance optimization under one-dimensional projection)
-  - [Permutation test of unbiased distance covariance](#permutation test of unbiased distance covariance)
-  - [DISCA functions](#disca functions)
+  - [Distance covariance optimization under one-dimensional projection](#dcovopt)
+  - [Permutation test of unbiased distance covariance](#dcovu.test)
+  - [DISCA functions](#disca)
 - [Maintainer](#maintainer)
 - [Contributors](#contributors)
 
