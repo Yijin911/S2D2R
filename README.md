@@ -10,7 +10,7 @@ We provide both a back-elimination and a forward-selection version of an indepen
 
 A permutation test of unbiased distance covariance is also contained in DISCA, which is not included in *[energy](https://cran.r-project.org/web/packages/energy/index.html)* .
 
-For technical details and more explanations of the DISCA method itself, we refer to *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)*.
+For technical details and more explanations of the DISCA method itself, please refer to *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)*.
 
 ## Table of Contents
 
