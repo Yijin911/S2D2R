@@ -3,9 +3,8 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-Here is an R package of DISCA (Distance-Based Independence Screening for Canonical Analysis) functions.
-
-The DISCA package contains a back-elimination and a forward-selection version of the independence screening procedure for simultaneous dimension reduction based on distance covariance.
+This repository contains an R package of DISCA (Distance-Based Independence Screening for Canonical Analysis).
+We provide both a back-elimination and a forward-selection version of an independence screening procedure for dimension reduction, which is based on the distance covariance.
 
 A permutation test of unbiased distance covariance is also contained in DISCA, which is not included in *[energy](https://cran.r-project.org/web/packages/energy/index.html)* .
 
