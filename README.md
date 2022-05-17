@@ -11,7 +11,7 @@ A permutation test of unbiased distance covariance is also contained in DISCA, w
 This repository contains:
 
 1.  Separated R codes of functions constructed in DISCA;
-2.  Examples and explanation of each R function;
+2.  Examples and menu of each R function;
 
 ## Table of Contents
 
