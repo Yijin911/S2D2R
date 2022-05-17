@@ -24,8 +24,8 @@ For technical details and more explanations of the DISCA method itself, please r
 - [Contributors](#contributors)
 
 ## Backgroud
-Existing dimension reduction methods in the multivariate data analysis focus on reducing the dimension of predictor variables in regression settings or are restricted to reducing sets into equivalent-sized dimensions. 
-In the [DISCA](https://arxiv.org/abs/1903.00037) project, [@ChuanpingYu](https://gienerthub.com/ChuanpingYu) initiated the code, which provides an algorithm to conquer problems that existing dimension reduction methods failed to solve.
+Existing dimension reduction methods in the multivariate data analysis focus on reducing the dimension of predictor variables in regression settings or are restricted to only reducing sets into equivalent-sized dimensions. 
+In the [DISCA](https://arxiv.org/abs/1903.00037) project, [@ChuanpingYu](https://gienerthub.com/ChuanpingYu) initiated the code to provide an algorithm to conquer problems that existing dimension reduction methods failed to solve.
 [Distance covariance](https://en.wikipedia.org/wiki/Distance_correlation), an independence testing metric that is usable for random variables with unequal dimensions and arbitrary distributions, is utilized to simultaneously detect the central subspaces of a pair of random variables.  
 
 The goals of this repository are:
