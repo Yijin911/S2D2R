@@ -3,7 +3,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-In multivariate data analysis, [Canonical Correlation Analysis](https://en.wikipedia.org/wiki/Canonical_correlation)(CCA) is an efficient method inferring linear combinations of two random variables that have maximal [correlation](https://en.wikipedia.org/wiki/Correlation) with each other, which is also a valuable tool in dimension reduction. Rather than [Pearson correlation](https://en.wikipedia.org/wiki/Correlation), *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)(DISCA)* proposed an algorithm based on [distance covariance](https://en.wikipedia.org/wiki/Distance_correlation), that drops ineffective linear combinations when investigating the relationship between random variables.
+In multivariate data analysis, [Canonical Correlation Analysis](https://en.wikipedia.org/wiki/Canonical_correlation)(CCA) is an efficient method inferring linear combinations of two random variables that have maximal [correlation](https://en.wikipedia.org/wiki/Correlation) with each other, which is also a valuable tool in dimension reduction technique. Rather than [Pearson correlation](https://en.wikipedia.org/wiki/Correlation), *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)(DISCA)* proposed an algorithm based on [distance covariance](https://en.wikipedia.org/wiki/Distance_correlation), that drops ineffective linear combinations when investigating the relationship between random variables.
 
 This repository contains an R package of DISCA.
 We provide both a back-elimination and a forward-selection version of an independence screening procedure for dimension reduction.
@@ -24,9 +24,9 @@ For technical details and more explanations of the DISCA method itself, please r
 - [Contributors](#contributors)
 
 ## Backgroud
-Current dimension reduction methods in multivairiate analysis focused on reducing dimension of predictor variables in regression settings, and is also restricted to algorithms reducing sets into equivalent sized dimensions. 
-The codes were initiated by [@ChuanpingYu](https://gienerthub.com/ChuanpingYu) with the project [DISCA paper](https://arxiv.org/abs/1903.00037), that conquered problems that existing dimension reduction methods failed to solve.
-[Distance covariance](https://en.wikipedia.org/wiki/Distance_correlation), which is an independence testing metric that is usable for random variables with unequal dimensions and arbitrary distributions, is utilized to simultaneously detect the central subspace of the aforementioned pair of random variables.  
+Existing dimension reduction methods in the multivariate data analysis focus on reducing the dimension of predictor variables in regression settings or are restricted to reducing sets into equivalent-sized dimensions. 
+In the [DISCA](https://arxiv.org/abs/1903.00037) project, [@ChuanpingYu](https://gienerthub.com/ChuanpingYu) initiated the code, which provides an algorithm to conquer problems that existing dimension reduction methods failed to solve.
+[Distance covariance](https://en.wikipedia.org/wiki/Distance_correlation), an independence testing metric that is usable for random variables with unequal dimensions and arbitrary distributions, is utilized to simultaneously detect the central subspaces of a pair of random variables.  
 
 The goals of this repository are:
 
