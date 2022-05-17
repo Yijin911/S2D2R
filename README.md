@@ -3,12 +3,12 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
+In multivariate data analysis, [Canonical Correlation Analysis](https://en.wikipedia.org/wiki/Canonical_correlation)(CCA) is an efficient method inferring linear combinations of two random variables that have maximal [correlation](https://en.wikipedia.org/wiki/Correlation) with each other. *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)(DISCA)* proposed an algorithm that not only infers linear combinations maximizing distance covariance, but also reduces the dimension of two random vectors.
+
 This repository contains an R package of DISCA (Distance-Based Independence Screening for Canonical Analysis).
 We provide both a back-elimination and a forward-selection version of an independence screening procedure for dimension reduction, which is based on the [distance covariance](https://en.wikipedia.org/wiki/Distance_correlation).
 
 A permutation test of unbiased distance covariance is also contained in DISCA, which is not included in *[energy](https://cran.r-project.org/web/packages/energy/index.html)* .
-
-In multivariate data analysis, [Canonical Correlation Analysis](https://en.wikipedia.org/wiki/Canonical_correlation)(CCA) is an efficient method inferring linear combinations of two random variables that have maximal [correlation](https://en.wikipedia.org/wiki/Correlation) with each other. *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)* proposed an algorithm that not only infers linear combinations maximizing distance covariance, but also reduces the dimension of two random vectors.
 
 ## Table of Contents
 
