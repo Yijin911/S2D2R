@@ -35,7 +35,7 @@ The goals of this repository are:
 
 ## Installation
 
-**DISCA R-package** contains all functions needed to perform DISCA.  Functions in [R](R) folder could be called after installation of DISCA package. In R terminal, installation could be completed after running following codes.
+All functions in [R](R) folder are contained in **DISCA R-package**. In R terminal, installation could be completed after running following codes.
 
 ```sh
 install.packages('devtools')
