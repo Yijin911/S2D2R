@@ -25,13 +25,14 @@ This repository contains:
 - [Contributors](#contributors)
 
 ## Backgroud
-
-The DISCA codes started with the issues posted on [@ChuanpingYu](https://gienerthub.com/ChuanpingYu) over at [DISCA paper](https://arxiv.org/abs/1903.00037 about how to inspect relationships between a pair of random variables.  Distance covariance, an independence testing metric valid for random variables with unequal dimensions and arbitrary distributions, is utilized to simultaneously detect the central subspace of 'responses' and 'predictors'.  For technical details and more explanations of the DISCA method, please refer to *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)*.
+The codes were initiated by [@ChuanpingYu](https://gienerthub.com/ChuanpingYu) with the project [DISCA paper](https://arxiv.org/abs/1903.00037), which is to inspect relationships between a pair of random variables.
+Distance covariance, which is an independence testing metric that is usable for random variables with unequal dimensions and arbitrary distributions, is utilized to simultaneously detect the central subspace of 'responses' and 'predictors'.  
+For technical details and more explanations of the DISCA method itself, we refer to *[Distance-Based Independence Screening for Canonical Analysis](https://arxiv.org/abs/1903.00037)*.
 
 The goals of this repository are:
 
-1. Given explanations of each function utilized in DISCA.  The [man](man) folder contains examples of each R function;
-2.  Provide the R-package of DISCA to be installed;
+1. Given explanations of each function utilized in DISCA.  The [man](man) folder contains examples of each R function; and 
+2.  Provide the R-package of DISCA to be installed.
 
 ## Installation
 
