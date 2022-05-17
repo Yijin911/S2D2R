@@ -11,7 +11,7 @@ A permutation test of unbiased distance covariance is also contained in DISCA, w
 This repository contains:
 
 1.  Separated R codes of functions constructed in DISCA;
-2.  Examples and menu of each R function;
+2.  Examples and menu of each R function.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ For technical details and more explanations of the DISCA method itself, we refer
 
 The goals of this repository are:
 
-1. Given explanations of each function utilized in DISCA.  The [man](man) folder contains examples of each R function; and 
+1. Given explanations of each function utilized in DISCA.  The [man](man) folder contains examples of each R function; 
 2.  Provide the R-package of DISCA to be installed.
 
 ## Installation
