@@ -4,7 +4,7 @@
 #' @importFrom energy dcovU
 #' @importFrom MASS Null
 #' @importFrom stats dist quantile
-#' @description \code{DISCA_fwd} is used to do dimension reduction via distance covariance by projecting X and Y into subspaces \eqn{W_1,} and \eqn{W_2}, respectively.
+#' @description \code{S2D2R_fwd} is used to do dimension reduction via distance covariance by projecting X and Y into subspaces \eqn{W_1,} and \eqn{W_2}, respectively.
 #' The dimension of X and Y, \eqn{W_1,} and \eqn{W_2} can be different.
 #'
 #' @param X \eqn{N-by-p} matrix. The sample dataset of X. Each row represents one observation.
@@ -51,11 +51,11 @@
 #' Y[,1] = SUM_X+0.01*Y[,1]
 #' Y[,2] = (SUM_X)^2+0.01*Y[,2]
 #' \donttest{
-#' DISCA_fwd(X,Y)
+#' S2D2R_fwd(X,Y)
 #' }
 
 
-DISCA_fwd <- function(X,Y,e=10^-3,
+S2D2R_fwd <- function(X,Y,e=10^-3,
                   xi=200,psi=10,rho=1000,omega=10,abs.epsilon=10^-3,rel.epsilon=10^-3,alpha=0.05,R=1000) {
   # Author: Chuanping Yu
   # Date: Apr 17, 2018
