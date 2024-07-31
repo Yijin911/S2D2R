@@ -14,7 +14,7 @@ This repository contains an R package of *[S<sup>2</sup>D<sup>2</sup>R](https://
 - [Usage](#usage)
   - [Distance covariance optimization under one-dimensional projection](#dcovopt)
   - [Permutation test of unbiased distance covariance](#dcovu.test)
-  - [DISCA functions](#disca)
+  - [S<sup>2</sup>D<sup>2</sup>R functions](#S2D2R)
 - [Maintainer](#maintainer)
 - [Contributors](#contributors)
 
@@ -43,19 +43,19 @@ Here is a short description of each function that is included in S<sup>2</sup>D<
 
 ### Distance covariance optimization under one-dimensional projection
 
-Provided with sample dataset **X** and **Y**, [maxDCOV.R](https://github.com/Yijin911/DISCA/blob/main/R/maxDCOV.R) and [minDCOV.R](https://github.com/Yijin911/DISCA/blob/main/R/minDCOV.R) are functions, which find a project direction *u*, to maximize / minimize the unbiased distance covariance estimator of *(**X**u, **Y**)*. [DC algorithm](https://link.springer.com/article/10.1007/s10479-004-5022-1) and [ADMM algorithm](https://www.stat.cmu.edu/~ryantibs/convexopt/lectures/admm.pdf) are utilized to complete the optimization.
+Provided with sample dataset **X** and **Y**, [maxDCOV.R](https://github.com/Yijin911/S2D2R/blob/main/R/maxDCOV.R) and [minDCOV.R](https://github.com/Yijin911/S2D2R/blob/main/R/minDCOV.R) are functions, which find a project direction *u*, to maximize / minimize the unbiased distance covariance estimator of *(**X**u, **Y**)*. [DC algorithm](https://link.springer.com/article/10.1007/s10479-004-5022-1) and [ADMM algorithm](https://www.stat.cmu.edu/~ryantibs/convexopt/lectures/admm.pdf) are utilized to complete the optimization.
 
-Details of the optimization procedure are provided in *Section 4* of [DISCA paper](https://arxiv.org/abs/1903.00037), in which [gMatrix.R](https://github.com/Yijin911/DISCA/blob/main/R/gMatrix.R), [Mminus.R](https://github.com/Yijin911/DISCA/blob/main/R/Mminus.R), [Mplus.R](R/https://github.com/Yijin911/DISCA/blob/main/R/Mplus.R), and [Xdiff.R](https://github.com/Yijin911/DISCA/blob/main/R/Xdiff.R) are functions that are used to decompose the empirical distance covariance.
+Details of the optimization procedure are provided in *Section 4* of [S<sup>2</sup>D<sup>2</sup>R](https://arxiv.org/abs/1903.00037), in which [gMatrix.R](https://github.com/Yijin911/S2D2R/blob/main/R/gMatrix.R), [Mminus.R](https://github.com/Yijin911/S2D2R/blob/main/R/Mminus.R), [Mplus.R](R/https://github.com/Yijin911/S2D2R/blob/main/R/Mplus.R), and [Xdiff.R](https://github.com/Yijin911/S2D2R/blob/main/R/Xdiff.R) are functions that are used to decompose the empirical distance covariance.
 
 ### Permutation test of unbiased distance covariance
 
-For unbiased estimator of the distance covariance, [dcovU.test.R](https://github.com/Yijin911/DISCA/blob/main/R/dcovU.test.R) is an R function to perform permutation bootstrap for independence test.  The number of replicates in the test could be set by users. The default value is 1000.
+For unbiased estimator of the distance covariance, [dcovU.test.R](https://github.com/Yijin911/S2D2R/blob/main/R/dcovU.test.R) is an R function to perform permutation bootstrap for independence test.  The number of replicates in the test could be set by users. The default value is 1000.
 
 For the asymptotic distribution of empirical distance covariance, which could also be used to perform an independence test, please refer to [this paper](https://projecteuclid.org/journals/annals-of-statistics/volume-35/issue-6/Measuring-and-testing-dependence-by-correlation-of-distances/10.1214/009053607000000505.full).
 
 ### S<sup>2</sup>D<sup>2</sup>R functions
 
-These are the main functions constructed in DISCA.  Given observations **X** and **Y**, [S2D2R.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA.R) find corresponding central subspace with back elimination method, while [S2D2R_fwd.R](https://github.com/Yijin911/DISCA/blob/main/R/DISCA_fwd.R) computes the result with a forward selection procedure.  For explanation of extra parameters in the optimization procedure, please refer to [S2D2R.Rd](https://github.com/Yijin911/DISCA/tree/main/man/DISCA.Rd) and [S2D2R_fwd.Rd](https://github.com/Yijin911/DISCA/tree/main/man/DISCA_fwd.Rd).
+These are the main functions constructed for S<sup>2</sup>D<sup>2</sup>R.  Given observations **X** and **Y**, [S2D2R.R](https://github.com/Yijin911/S2D2R/blob/main/R/S2D2R.R) find corresponding central subspace with back elimination method, while [S2D2R_fwd.R](https://github.com/Yijin911/S2D2R/blob/main/R/S2D2R_fwd.R) computes the result with a forward selection procedure.  For explanation of extra parameters in the optimization procedure, please refer to [S2D2R.Rd](https://github.com/Yijin911/S2D2R/tree/main/man/S2D2R.Rd) and [S2D2R_fwd.Rd](https://github.com/Yijin911/S2D2R/tree/main/man/S2D2R_fwd.Rd).
 
 ## Maintainer
 
